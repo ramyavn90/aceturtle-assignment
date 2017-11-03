@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Puma">
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="shoeIndex" value="2"/>
+		<classes>
+			<class name="com.aceturtle.assignment.Assignment" />
+		</classes>
+	</test>
+	<test name="FirefoxTest">
+		<parameter name="browser" value="firefox" />
+		<parameter name="shoeIndex" value="3"/>
+		<classes>
+			<class name="com.aceturtle.assignment.Assignment"/>
+		</classes>
+	</test>
+</suite> <!-- Puma -->
